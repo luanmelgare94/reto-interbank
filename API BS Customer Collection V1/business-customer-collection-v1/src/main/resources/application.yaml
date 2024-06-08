@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: business-customer-collection-v1
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/customer
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+aes:
+  secret: interbankpe62024

@@ -1,0 +1,26 @@
+server:
+  port: 8099
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: channel-customer-collection-management-v1
+        uri: lb://CHANNEL-CUSTOMER-COLLECTION-MANAGEMENT-V1
+        predicates:
+        - Path=/**
+        filters:
+        - name: AuthenticationFiltering
+  main:
+    allow-bean-definition-overriding: true

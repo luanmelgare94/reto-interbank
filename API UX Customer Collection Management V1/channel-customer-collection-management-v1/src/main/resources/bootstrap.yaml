@@ -1,0 +1,8 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: channel-customer-collection-management-v1
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}

@@ -1,0 +1,22 @@
+path:
+  financial: http://localhost:8083
+  customer: http://localhost:8082
+method:
+  financial:
+    uri: /financials/detail
+    param:
+      customerId: customerId
+  customer:
+    uri: /customers/detail
+    param:
+      id: id
+  header:
+    authorization: Authorization
+    traceId: traceId
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+      hibernate: ERROR

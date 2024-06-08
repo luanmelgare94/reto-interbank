@@ -1,0 +1,20 @@
+{
+  "id": "UFYEIUUO97jLMmeAAnChXbMlpg/Zo2maTQb0KRPjfac=",
+  "name": "Rudy",
+  "firstLastName": "Carlos",
+  "secondLastName": "Ostoa",
+  "document": {
+    "type": "DNI",
+    "number": "78945612"
+  },
+  "products":[
+    {
+      "product": {
+        "type": "Ahorros",
+        "name": "Cuenta sueldo"
+      },
+      "financialAccount": "012345678910",
+      "balanceAmount": "S/ 4,000.50"
+    }
+  ]
+}

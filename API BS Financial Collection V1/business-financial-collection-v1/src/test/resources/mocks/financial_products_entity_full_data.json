@@ -1,0 +1,11 @@
+{
+  "id": "6660f6e4707a071685b6da62",
+  "customerId": "6660f6e4707a071685b6da52",
+  "productType" : {
+    "id": "6660f6e4707a071685b6df02",
+    "name": "Ahorros"
+  },
+  "productName": "Cuenta sueldo",
+  "financialAccount": "012345678910",
+  "balanceAmount": 4000.50
+}

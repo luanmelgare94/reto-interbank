@@ -1,0 +1,12 @@
+{
+  "products":[
+    {
+      "product": {
+        "type": "Ahorros",
+        "name": "Cuenta sueldo"
+      },
+      "financialAccount": "012345678910",
+      "balanceAmount": 4000.50
+    }
+  ]
+}
